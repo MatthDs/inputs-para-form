@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    
+    <!--
+        
+                  inputs de email e senha
+
+    pattern é utilizado para  colocar os "requerimento"
+     
+    (placeholder é utilizado para deixar um tipo de texto no "fundo"")
+
+    <form action="">
+email:
+<input type="email"
+placeholder="Email"
+pattern=".+@gmail\.com"
+title="somente emails que contenha @gmail.com">
+
+
+<button type="submit">Enviar</button>
+
+
+senha:
+</form>
+<br>
+    
+    <form action="">
+
+
+        <input type="password" 
+        minlength="4"
+        maxlength="20"
+        size="20"
+        placeholder="Senha">
+      
+    <button type="submit">Enviar</button>
+    
+    </form>
+<br>
+-->
+
+
+
+
+
+ <!--         Comando input files 
+    
+    (o * é utilizado para especificar que 
+     todo tipo de arquivo será compativel.
+    ou mesmo utilizando a tag 'multiple'
+            
+    exemplo:
+    
+    <form action="">
+
+<input type="file" accept="image/*">
+
+</form>
+
+    )-->
+
+    <!--
+             Comando select é
+
+
+--um controle de menu de opções
+
+    ( Comando option )
+--contém as opções que irão ser selecionadas
+
+--atríbutos necessários
+
+(atributos como "multiple & "size" podem ser utilizados)
+
+(A opção optgroup, também poode ser usada junto com option)
+
+<label for="carselect">Qual modelo do carro</label>
+<select name="carmodel" id="carselect">
+<option value="">Selecione o modelo</option>
+<option value="fiat">Uno</option>
+<option value="audi">A3</option>
+
+</select>
+
+-->
+
+
+<!--
+                  Comando  input search
+
+                  --Para campos de busca
+
+--é igual ao campo do tipo 'text' mas pode ser diferente
+dependendo do user agent
+
+
+
+<datalist id="searchterms">
+
+<option>mac</option>
+<option>win</option>
+<option>lin</option>
+<option></option>
+
+</datalist>
+
+<form action="">
+    <input type="search" name="q" id="searchterms"
+    placeholder="Digite seu termo de busca" size="23 " 
+    
+    aria-label="Campo de pesquisa: digite seu termo de busca"
+    pattern="[0-9]">
+    <button>Pesquisar</button>
+
+
+!-->
+
+</form>
+
+
+</body>
+</html>
+
+
+
+
+
+
